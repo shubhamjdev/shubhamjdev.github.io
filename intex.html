@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <p class="name">Shubham Jain</p>
+            <p class="menu-item" onclick="showsidebar()">Contact Us</p>
+            <p class="menu-item">Services</p>
+            <p class="menu-item">Home</p>
+            <p class="menu-item">Kicad 7.0</p>
+        </div>
+    </header>
+    <main>
+        <div class="section section0">
+            <div class="image"><img id="image1" src="image1 (1).jpg" alt="Shubham Jain" /></div>
+            <div class="welcome">
+                <h1 class="salute">Hola! I am Shubham</h1>
+                <h3 class="spec">An Enthusiastic and creative web developer</h3>
+                <h3 class="spec">As well as a Kicad PCB designer.</h3>
+                <br />
+                <h1 class="salute">Based in Bharat.🇮🇳</h1>
+            </div>
+        </div>
+        <div class="section section2">
+            <div class="image"><img id="image3" src="ElectronicsEngineering1.jpg" alt="Electronics Engineering" /></div>
+            <div class="degreeintro">
+                <h1 class="salute">I am An Engineer.</h1>
+                <h3 class="spec">Currently pursuing my Bachelor's in Electronics Engineering</h3>
+                <h3 class="spec">And providing services to people in need.</h3>
+            </div>
+        </div>
+        <div class="section section3">
+            <div class="ki-cad">
+                <h1 class="salute">I am interested in PCB designing.</h1>
+            </div>
+            <div class="image"><img id="image4" src="download.png" alt="PCB Designing" /></div>
+        </div>
+    </main>
+    <footer>
+        <h1 class="bottomline">Feel free to contact me at the given contact details.</h1>
+        <div class="footer">
+            <div class="social">
+                <div class="social-item">
+                    <img class="socialicon" src="linkedin.png" alt="LinkedIn" width="20px">
+                    <a href="https://www.linkedin.com/in/shubhamjdev/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="social-item">
+                    <img class="socialicon" src="instagram.png" alt="Instagram" width="20px">
+                    <a href="https://www.instagram.com/shubham_singhai88/" target="_blank">Instagram</a>
+                </div>
+                <div class="social-item">
+                    <img class="socialicon" src="twitter.png" alt="Twitter" width="20px">
+                    <a href="https://x.com/Jain80041Sj?t=BSBaF8wH9lZIGkTcJwd80A&s=09" target="_blank">Twitter</a>
+                </div>
+                <div class="social-item">
+                    <img class="socialicon" src="facebook.png" alt="Facebook" width="20px">
+                    <a href="https://www.facebook.com/people/Shubham-Jain/pfbid029q9C54SHHtQC3jr1y5YPAPDR6esqTcuSbm7ttkbBmxXrRq56fzvnFxa5xBbiWYAsl/" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact-item">
+                    <img class="contacticon" src="call.png" alt="Phone" width="20px">
+                    <p class="phmail">+91 8889434614</p>
+                </div>
+                <div class="contact-item">
+                    <img class="contacticon" src="gmail.png" alt="Email" width="20px">
+                    <p class="phmail">jainshubham88.sj@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.right = '0';
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.right = '-100%';
+        }
+    </script>
+</body>
+</html>
